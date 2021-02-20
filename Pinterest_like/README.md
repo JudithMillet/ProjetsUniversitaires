@@ -23,8 +23,8 @@ Une fois votre visite terminée vous pouvez vous déconnecter avec le bouton "d�
 
 
 
-Judith Millet s'est majoriterement occupée de la partie visuelle (mise en page html, css, affichage des photos, cllique sur les photos, affichage de la description).<br/>
-Emie Lafourcade s'est majoriterement occupée de la partie base de donnée (création de la base) et de la partie utilisateur (connexion, inscription).
+Judith Millet s'est majoritairement occupée de la partie visuelle (mise en page html, css, affichage des photos, clique sur les photos, affichage de la description).<br/>
+Emie Lafourcade s'est majoritairement occupée de la partie base de données (création de la base) et de la partie utilisateur (connexion, inscription).
 
 Le travail à été bien réparti. <br/>
 Nous avons mis un peu de temps à comprendre le fonctionnement des variables de session avec les sessions_start() et close().

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" /> -->
+  <link rel="stylesheet" href="css/materialicons.css" />
+  <link rel="stylesheet" href="css/materialize.min.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="icon" type="image/png" href="icone.png">
+  <script type="text/javascript" src="js/materialize.min.js" defer></script>
+  <meta charset="UTF-8" />
+  <title>LIFAP5 2019-2020 - Client</title>
+</head>
+
+<!-- Modal Structure -->
+<div id="id-modal-quiz-menu" class="modal">
+  <div class="modal-content">
+    <h4>Modal Header</h4>
+    <p>A bunch of text</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+  </div>
+</div>
+
+<div id="id-modal-confirm" class="modal">
+  <div class="modal-content">
+  </div>
+  <div class="modal-footer">
+    <button id="id-modal-confirm-oui" class="modal-close waves-effect waves-green btn-flat">Oui</button>
+    <button class="modal-close waves-effect waves-green btn-flat">Non</button>
+  </div>
+</div>
+
+<!-- id -->
+<div id="id-login-modal-form-connect" class="modal">
+  <h5 class="modal-close" style="position: absolute;top:10px;right:10px;padding:0;margin:0;">&#10005;</h5>
+  <div id="id-modal-content-login-connect" class="modal-content center">
+    <h4>Connexion</h4><br>
+    <form action="#" id="id-login-form-connect">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">lock</i>
+          <input type="text" id="id-key" class="validate"
+            pattern="[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}" title="X-API-KEY"
+            placeholder="7038e76c-7fc3-423f-bfaa-97a0872bdb68" data-error="Please enter a value." required>
+          <label for="id-key">X-API-KEY</label>
+          <br>
+          <div class="center">
+            <label>
+              <input type="checkbox" id="id-check" />
+              <span>Rester connecté</span>
+            </label>
+          </div>
+        </div>
+        <br>
+        <button id="id-submit-connect" type="submit" class="btn btn-large waves-effect waves-green">
+          Se connecter
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div id="id-login-modal-disconnect" class="modal">
+  <h5 class="modal-close" style="position: absolute;top:10px;right:10px;padding:0;margin:0;">&#10005;</h5>
+  <div id="id-modal-content-login-disconnect" class="modal-content center">
+    <h2 id="id-greeting-user"></h2>
+    <button id="id-button-disconnect" type="submit" class="btn btn-large waves-effect waves-green">Se
+      deconnecter</button>
+  </div>
+</div>
+
+<div id="id-modal-quiz-form" class="modal">
+  <h5 class="modal-close" style="position: absolute;top:10px;right:10px;padding:0;margin:0;">&#10005;</h5>
+  <div class="modal-content center">
+    <div class="row">
+      <form action="#" id="id-quiz-form-create">
+        <h4 id="id-modal-quiz-title"></h4>
+        <div class="row">
+          <div class="input-field col s6 center">
+            <input id="quiz-name-create" type="text" class="validate" required>
+            <label for="quiz-name-create">Nom du quiz</label>
+          </div>
+          <div class="input-field col s12">
+            <textarea id="id-form-description-quiz" class="materialize-textarea validate" required></textarea>
+            <label for="id-form-description-quiz">Description du quiz</label>
+          </div>
+          <button class="waves-effect waves-green btn col l3 s8" id="id-modal-quiz-form-add-question" type="button">
+            Ajouter une Question
+          </button>
+        </div>
+        <ul class="collapsible" id="id-modal-quiz-form-list-questions"></ul>
+        <button id="id-modal-quiz-button-validate" type="submit"
+          class="waves-effect waves-green btn-large center"></button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div id="id-modal-quiz-stat" class="modal">
+  <h5 class="modal-close" style="position: absolute;top:10px;right:10px;padding:0;margin:0;">&#10005;</h5>
+  <div class="modal-content">
+  </div>
+</div>
+
+<body>
+  <header>
+    <nav class="nav-extended teal darken-2">
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper teal">
+            <a href="#!" class="brand-logo  center">Mille et un quizzzes<i class="material-icons right">question_answer</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <form>
+                  <div class="input-field teal lighten-1">
+                    <input id="search" type="search" required />
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                  </div>
+                </form>
+              </li>
+              <!-- id -->
+              <li>
+                <a id="id-but-login" class="waves-effect waves-light btn modal-trigger teal lighten-2"
+                  href="#id-login-form">
+                  <i id="icon-disconnected" class="material-icons">account_circle</i>
+                  <i id="icon-connected" class="material-icons">face</i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- nav-wrapper  -->
+        </nav>
+      </div>
+      <!-- navbar-fixed -->
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent tabs-fixed-width">
+          <li class="tab">
+            <a class="active" href="#id-all-quizzes">Tous les quizzes</a>
+          </li>
+          <li class="tab"><a href="#id-my-answers">Mes réponses</a></li>
+        </ul>
+      </div>
+      <!-- nav-content -->
+    </nav>
+    <!-- nav-extended -->
+  </header>
+
+  <main>
+    <div>
+      <!-- class="container" -->
+      <!-- Un premier onglet pour tous les quizzes-->
+      <div id="id-all-quizzes">
+        <div class="fixed-action-btn">
+          <a id="id-btn-add-quiz" class="btn-floating btn-large waves-effect waves-light red tooltipped" data-position="left" data-tooltip="Cliquez ici pour ajouter un quiz">
+            <i class="material-icons">add</i>
+          </a>
+        </div>
+        <div class="row">
+          <div class="col l4">
+            <div id="id-all-quizzes-list"></div>
+          </div>
+          <div class="col l8">
+            <div id="id-all-quizzes-main"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Un dernier onglet pour ses propres réponses-->
+      <div id="id-my-answers" class="section">
+        <div class="row">
+          <div id="id-my-answers-panel-info">
+            <div class="card-panel grey darken-2 col offset-l3 l6 offset-m1 m10 s12">
+              <h5 class="white-text title">Information : <br></h5>
+              <p class="white-text info-list">Pour connaître l'état d'un quiz répondu il faut passer sa souris dessus.<br>
+                La couleur bleu foncée <span class="color-box blue darken-4"></span> indique un quiz qui n'est pas
+                rempli entièrement.<br>
+                La couleur bleu claire <span class="color-box blue lighten-1"></span> indique un quiz qui est rempli
+                entièrement.<br>
+                La couleur blanche <span class="color-box white"></span> indique un quiz qui n'a pas été survolé.
+              </p>
+            </div>
+          </div>
+          <div id="id-my-answers-list">
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <footer class="page-footer grey darken-1">
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <span class="col offset-s1 s2">CC BY-NC-SA 3.0 FR</span>
+          <div class="col offset-s2 s2">Créé par Judith MILLET et Antoine RYBACKI</div>
+          <a class="grey-text text-lighten-4 right col offset-s3 s2" href="https://lifap5.univ-lyon1.fr/">lifap5.univ-lyon1.fr</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- l'ordre compte dans les scripts : ils sont lues puis interprétés DANS L'ORDRE -->
+  <script type="text/javascript" src="js/websocket.js" defer></script>
+  <script type="text/javascript" src="js/modeles.js" defer></script>
+  <script type="text/javascript" src="js/vues.js" defer></script>
+  <script type="text/javascript" src="js/app.js" defer></script>
+</body>
+
+</html>

@@ -26,7 +26,7 @@ Site réalisé en binome (et à distance) dans le cadre de la matière "Programm
 
 ## Projets de L3
 
-### Challenges Kaggle (A venir)
+### Challenges Kaggle
 Projet réalisé en trinôme (et à distance) dans le cadre de la matière "LIFProjet".<br/>
 *Réalisé du 18/09/2020 au 14/01/2021*
 
@@ -34,7 +34,7 @@ Projet réalisé en trinôme (et à distance) dans le cadre de la matière "LIFP
 Jeu inspiré d'un jeu Nintendo réalisé en binôme (et à distance) dans le cadre de la matière "Programmation Orientée Objet".<br/>
 *Réalisé du 25/11/2020 au 9/12/2020*
 
-### Base de données relationnelle (à venir)
+### Base de données relationnelle
 Projet réalisé en binôme (et à distance) dans le cadre de la matière "Base de données avancées".<br/>
 *Réalisé du 3/12/2020 au 18/12/2020*
 
