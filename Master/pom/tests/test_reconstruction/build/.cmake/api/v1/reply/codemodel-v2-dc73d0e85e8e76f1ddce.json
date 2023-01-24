@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "test_point_cloud_proc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CGAL_Qt5_moc_and_resources::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CGAL_Qt5_moc_and_resources-Debug-2f8bec43880fdc64956e.json",
+					"name" : "CGAL_Qt5_moc_and_resources",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CGAL_Qt5_moc_and_resources_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CGAL_Qt5_moc_and_resources_autogen-Debug-da956be82cf28d7a41a1.json",
+					"name" : "CGAL_Qt5_moc_and_resources_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lcc_tools_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lcc_tools_lib-Debug-eed86377f607951981e6.json",
+					"name" : "lcc_tools_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lcc_tools_lib_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lcc_tools_lib_autogen-Debug-5fab9a81873e7d18a150.json",
+					"name" : "lcc_tools_lib_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reconstruction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reconstruction-Debug-f94ee5b7ea2ec212c1a5.json",
+					"name" : "reconstruction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reconstruction_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reconstruction_autogen-Debug-857f51ac7f1d56d4899c.json",
+					"name" : "reconstruction_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/judith/Documents/M1/POM/pom-s2/tests/test_reconstruction/build",
+		"source" : "/home/judith/Documents/M1/POM/pom-s2/tests/test_reconstruction"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

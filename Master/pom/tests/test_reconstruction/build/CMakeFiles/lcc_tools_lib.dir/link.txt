@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -g -shared -Wl,-soname,liblcc_tools_lib.so -o liblcc_tools_lib.so CMakeFiles/lcc_tools_lib.dir/lcc_tools_lib_autogen/mocs_compilation.cpp.o  libCGAL_Qt5_moc_and_resources.a -lgmpxx -lmpfr -lgmp /usr/lib/libQt5OpenGL.so.5.15.4 /usr/lib/libQt5Svg.so.5.15.4 /usr/lib/libQt5Widgets.so.5.15.4 /usr/lib/libQt5Gui.so.5.15.4 /usr/lib/libQt5Core.so.5.15.4 

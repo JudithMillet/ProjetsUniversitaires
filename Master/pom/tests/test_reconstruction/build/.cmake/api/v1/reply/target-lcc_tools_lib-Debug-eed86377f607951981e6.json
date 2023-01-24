@@ -1,0 +1,1122 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "liblcc_tools_lib.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_link_options",
+			"target_link_libraries",
+			"CGAL_setup_CGAL_Qt5_dependencies",
+			"CGAL_setup_target_dependencies",
+			"include",
+			"find_package",
+			"set_property",
+			"_populate_OpenGL_target_properties",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/home/judith/Documents/M1/lib/cgal/Installation/cmake/modules/CGAL_SetupCGAL_Qt5Dependencies.cmake",
+			"/home/judith/Documents/M1/lib/cgal/Installation/cmake/modules/CGAL_setup_target_dependencies.cmake",
+			"/home/judith/Documents/M1/lib/cgal/Installation/lib/cmake/CGAL/CGALConfig.cmake",
+			"/home/judith/Documents/M1/lib/cgal/CGALConfig.cmake",
+			"/usr/lib64/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake",
+			"/usr/lib64/cmake/Qt5/Qt5Config.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 6,
+				"parent" : 4
+			},
+			{
+				"file" : 3,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 170,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 114,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 115,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 153,
+				"parent" : 6
+			},
+			{
+				"file" : 1,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 78,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 12
+			},
+			{
+				"file" : 6,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 28,
+				"parent" : 15
+			},
+			{
+				"file" : 5,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 213,
+				"parent" : 17
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 57,
+				"parent" : 18
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC   -Wall -Wextra -g"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-frounding-math"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-Wno-deprecated-copy"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-Wno-cast-function-type"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 21,
+					"define" : "CGAL_PROFILE_LCC_DEMO"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "CGAL_USE_BASIC_VIEWER"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "CGAL_USE_GMPXX=1"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "QT_NO_KEYWORDS"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "QT_SVG_LIB"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"define" : "lcc_tools_lib_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/judith/Documents/M1/POM/pom-s2/tests/test_reconstruction/build"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/judith/Documents/M1/POM/pom-s2/tests/test_reconstruction/build/lcc_tools_lib_autogen/include"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/home/judith/Documents/M1/POM/pom-s2/tests/test_reconstruction/tools"
+				},
+				{
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/POM/pom-s2/tests/test_reconstruction"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/AABB_tree/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Advancing_front_surface_reconstruction/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Algebraic_foundations/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Algebraic_kernel_d/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Algebraic_kernel_for_circles/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Algebraic_kernel_for_spheres/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Alpha_shapes_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Alpha_shapes_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Apollonius_graph_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Arithmetic_kernel/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Arrangement_on_surface_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/BGL/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Barycentric_coordinates_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Boolean_set_operations_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Bounding_volumes/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Box_intersection_d/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/CGAL_Core/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/CGAL_ImageIO/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/CGAL_ipelets/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Cartesian_kernel/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Circular_kernel_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Circular_kernel_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Circulator/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Classification/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Combinatorial_map/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Cone_spanners_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Convex_decomposition_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Convex_hull_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Convex_hull_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Convex_hull_d/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Distance_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Distance_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Envelope_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Envelope_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Filtered_kernel/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Generalized_map/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Generator/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/GraphicsView/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/HalfedgeDS/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Hash_map/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Heat_method_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Homogeneous_kernel/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Hyperbolic_triangulation_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Inscribed_areas/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Installation/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Interpolation/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Intersections_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Intersections_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Interval_skip_list/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Interval_support/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Jet_fitting_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Kernel_23/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Kernel_d/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/LEDA/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Linear_cell_complex/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Matrix_search/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Mesh_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Mesh_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Mesher_level/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Minkowski_sum_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Minkowski_sum_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Modifier/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Modular_arithmetic/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Nef_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Nef_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Nef_S2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/NewKernel_d/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Number_types/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/OpenNL/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Optimal_bounding_box/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Optimal_transportation_reconstruction_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Optimisation_basic/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Orthtree/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Partition_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Periodic_2_triangulation_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Periodic_3_mesh_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Periodic_3_triangulation_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Periodic_4_hyperbolic_triangulation_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Point_set_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Point_set_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Point_set_processing_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Poisson_surface_reconstruction_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Polygon/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Polygon_mesh_processing/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Polygonal_surface_reconstruction/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Polyhedron/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Polyline_simplification_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Polynomial/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Polytope_distance_d/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Principal_component_analysis/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Principal_component_analysis_LGPL/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Profiling_tools/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Property_map/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/QP_solver/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Random_numbers/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Ridges_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/STL_Extension/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Scale_space_reconstruction_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/SearchStructures/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Segment_Delaunay_graph_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Segment_Delaunay_graph_Linf_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Set_movable_separability_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Shape_detection/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Shape_regularization/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Skin_surface_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Snap_rounding_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Solver_interface/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Spatial_searching/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Spatial_sorting/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Straight_skeleton_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Stream_lines_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Stream_support/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Subdivision_method_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Surface_mesh/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Surface_mesh_approximation/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Surface_mesh_deformation/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Surface_mesh_parameterization/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Surface_mesh_segmentation/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Surface_mesh_shortest_path/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Surface_mesh_simplification/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Surface_mesh_skeletonization/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Surface_mesh_topology/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Surface_mesher/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Surface_sweep_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/TDS_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/TDS_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Testsuite/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Tetrahedral_remeshing/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Three/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Triangulation/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Triangulation_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Triangulation_3/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Triangulation_on_sphere_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Union_find/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Visibility_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Voronoi_diagram_2/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/home/judith/Documents/M1/lib/cgal/Weights/include"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/usr/include/qt"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtWidgets"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtGui"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtCore"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/usr/lib/qt/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtOpenGL"
+				},
+				{
+					"backtrace" : 20,
+					"isSystem" : true,
+					"path" : "/usr/include/qt/QtSvg"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					20,
+					20
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 20,
+			"id" : "CGAL_Qt5_moc_and_resources::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "lcc_tools_lib_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "lcc_tools_lib::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "libCGAL_Qt5_moc_and_resources.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgmpxx",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lmpfr",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lgmp",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/usr/lib/libQt5OpenGL.so.5.15.4",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/usr/lib/libQt5Svg.so.5.15.4",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/usr/lib/libQt5Widgets.so.5.15.4",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/usr/lib/libQt5Gui.so.5.15.4",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/usr/lib/libQt5Core.so.5.15.4",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "lcc_tools_lib",
+	"nameOnDisk" : "liblcc_tools_lib.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/lcc_tools_lib_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tools/lcc_creations.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tools/Linear_cell_complex_cut_operation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tools/typedefs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tools/lcc_triangulate_faces.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

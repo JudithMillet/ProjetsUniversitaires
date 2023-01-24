@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "name": "Debug",
+            "target": "build/point_cloud_proc",
+            "cwd": "${workspaceRoot}",
+            "valuesFormatting": "parseText"
+        },
+
+        {
+            "type": "node-terminal",
+            "name": "JavaScript Debug Terminal",
+            "request": "launch",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

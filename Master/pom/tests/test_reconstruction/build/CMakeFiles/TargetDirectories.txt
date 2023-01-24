@@ -1,0 +1,8 @@
+/home/judith/Documents/M1/POM/pom-s2/tests/test_reconstruction/build/CMakeFiles/CGAL_Qt5_moc_and_resources.dir
+/home/judith/Documents/M1/POM/pom-s2/tests/test_reconstruction/build/CMakeFiles/lcc_tools_lib.dir
+/home/judith/Documents/M1/POM/pom-s2/tests/test_reconstruction/build/CMakeFiles/reconstruction.dir
+/home/judith/Documents/M1/POM/pom-s2/tests/test_reconstruction/build/CMakeFiles/edit_cache.dir
+/home/judith/Documents/M1/POM/pom-s2/tests/test_reconstruction/build/CMakeFiles/rebuild_cache.dir
+/home/judith/Documents/M1/POM/pom-s2/tests/test_reconstruction/build/CMakeFiles/CGAL_Qt5_moc_and_resources_autogen.dir
+/home/judith/Documents/M1/POM/pom-s2/tests/test_reconstruction/build/CMakeFiles/lcc_tools_lib_autogen.dir
+/home/judith/Documents/M1/POM/pom-s2/tests/test_reconstruction/build/CMakeFiles/reconstruction_autogen.dir
